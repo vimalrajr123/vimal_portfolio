@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Smash the pig</title>
+<link rel="stylesheet" type="text/css" href="cdn/animate.css">
+<style>
+
+html { 
+  background: url(images/screen.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div#board {
+	position: relative;
+	width: 1000px;
+	height: 620px;
+	margin: auto;
+	background: url(images/img1.jpg) no-repeat center; 
+	
+}
+
+div#messageArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: rgb(83, 175, 19);
+}
+.hit {
+	background: url("images/pig.png") no-repeat center center;
+}
+.miss {
+	background: url("images/miss.png") no-repeat center center;
+}
+table {
+	border-spacing: 0px; 
+	/* could use border-collapse instead */
+	/* border-collapse: collapse; */
+	position: absolute;
+	left: 343px;
+	top: 70px;
+}
+td {
+	width: 43px;
+	height: 43px;
+}
+form {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding: 15px;
+	background-color: rgb(36, 77, 138);
+}
+form input {
+	background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+#vim
+{
+	width: 175px;
+    height: 200px;
+    background: #fff;
+    float: left;
+    left: 0px;
+    position: fixed;
+    top: 200px;
+    border-radius: 118px;
+}
+
+</style>
+</head>
+<body>
+<div id="board" class="zoomIn animated">
+<div id="messageArea"></div>
+<table>
+<tr>
+<td id="00"></td> <td id="01"></td> <td id="02"></td> <td id="03"></td>
+<td id="04"></td> <td id="05"></td> <td id="06"></td>
+</tr>
+<tr>
+<td id="10"></td> <td id="11"></td> <td id="12"></td> <td id="13"></td>
+<td id="14"></td> <td id="15"></td> <td id="16"></td>
+</tr>
+<tr>
+<td id="20"></td> <td id="21"></td> <td id="22"></td> <td id="23"></td>
+<td id="24"></td> <td id="25"></td> <td id="26"></td>
+</tr>
+<tr>
+<td id="30"></td> <td id="31"></td> <td id="32"></td> <td id="33"></td>
+<td id="34"></td> <td id="35"></td> <td id="36"></td>
+</tr>
+<tr>
+<td id="40"></td> <td id="41"></td> <td id="42"></td> <td id="43"></td>
+<td id="44"></td> <td id="45"></td> <td id="46"></td>
+</tr>
+<tr>
+<td id="50"></td> <td id="51"></td> <td id="52"></td> <td id="53"></td>
+<td id="54"></td> <td id="55"></td> <td id="56"></td>
+</tr>
+<tr>
+<td id="60"></td> <td id="61"></td> <td id="62"></td> <td id="63"></td>
+<td id="64"></td> <td id="65"></td> <td id="66"></td>
+</tr>
+</table>
+<form>
+<input type="text" id="guessInput" placeholder="A0"><br>
+<input type="button" id="fireButton" value="SMASH!">
+</form>
+</div>
+<div id="vim" align="center" class="rollIn animated"><img src="images/div.png" style="margin-top:-60px;">
+<strong >SMASH THE PIG</strong>
+<p>Try to find all the "9" hidden pigs and smash them to save the eggs <br>All the Best!!</p>
+</div>
+<script src="smtp.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+......................................
+
+
+
+.profile-header-container
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img > img.img-circle 
+{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1e1916;;
+}
+
+.profile-header-img 
+{
+    padding: 54px;
+    margin-bottom: -20px;
+	margin-top: 75px;
+}
+
+.rank-label-container 
+{
+    margin-top: -19px;
+    text-align: center;
+}
+
+.label.label-default.rank-label 
+{
+    background-color: rgb(38, 33, 30);
+    padding: 2px 15px 2px 15px;
+    border-radius: 27px;
+    font-size: 16px;
+}
+
+.img-circle 
+{
+    border-radius: 19%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+...........................................................................
+
+.rotateInDownLeft 
+{
+    animation-name: rotateInDownLeft;
+	-webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+.fadeInDown 
+{
+    animation-name: fadeInDown;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+.fadeIn 
+{
+    animation-name: fadeIn;
+	-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+    animation-delay: 3s;
+}
+
+.zoomIn 
+{
+    animation-name: zoomIn;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+.rollIn 
+{
+    animation-name:rollIn ;
+	-webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
+    animation-delay: 1.5s;
+}
+
+.lightSpeedIn 
+{
+    animation-name: lightSpeedIn;
+	-webkit-animation-delay: 2.5s; /* Chrome, Safari, Opera */
+    animation-delay: 2.5s;
+}
+
+.bounceIn 
+{
+	animation-name: bounceIn;
+	-webkit-animation-delay: 3.5s; /* Chrome, Safari, Opera */
+    animation-delay: 3.5s;
+}
+....................................................................................
+.text-center 
+{
+    text-align: center;
+    text-align: justify;
+	color:#a4aaaa;
+}
+
+.navbar-default 
+{
+    background-color: transparent;
+    border-color: transparent;
+} 
+
+.social
+{
+	display:block;
+	text-align:center;
+    margin-top: 78px;
+}

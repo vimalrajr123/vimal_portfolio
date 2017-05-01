@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.zoomIn 
+{
+    animation-name: zoomIn;
+	-webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+.rollIn 
+{
+    animation-name:rollIn ;
+	-webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
+    animation-delay: 1.5s;
+}
+
+.lightSpeedIn 
+{
+    animation-name: lightSpeedIn;
+	-webkit-animation-delay: 2.5s; /* Chrome, Safari, Opera */
+    animation-delay: 2.5s;
+}
+
+.bounceIn 
+{
+	animation-name: bounceIn;
+	-webkit-animation-delay: 3.5s; /* Chrome, Safari, Opera */
+    animation-delay: 3.5s;
+}
